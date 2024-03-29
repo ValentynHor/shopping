@@ -1,0 +1,15 @@
+
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+
+    implementation 'org.springframework.cloud:spring-cloud-starter-sleuth:3.1.11'
+    implementation 'org.springframework.cloud:spring-cloud-sleuth-zipkin:3.1.11'
+
+    runtimeOnly 'org.postgresql:postgresql'
+
+    testImplementation 'org.testcontainers:postgresql'
+}
+

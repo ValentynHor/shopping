@@ -1,0 +1,8 @@
+rootProject.name = 'shopping'
+include 'product'
+include 'order'
+include 'inventory'
+include 'discovery-server'
+include 'api-gateway'
+include 'notification'
+
